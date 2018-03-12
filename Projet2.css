@@ -124,3 +124,19 @@ td, th /* Mettre une bordure sur les td ET les th */
 	text-align: center;
 }
 
+.photo_gauche 
+{ 
+float: left; 
+width: xx; 
+height: xx; 
+margin-left: xx:   
+} 
+ 
+.texte_droite 
+{ 
+float: right; 
+width: xx; 
+height: xx; 
+margin-left: xx:  
+} 
+
