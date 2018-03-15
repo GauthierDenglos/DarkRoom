@@ -1,40 +1,32 @@
 /* Contenu */ 
-
 .Introduction 
 {
 	background-color: black; 
-	/* background-image:url(Images/322438.jpg); */
 }
-
-.Titre
+.Titre, .Tdgal
 {
 	color: white; 
 	text-align: center; 
 }
-
 .TitrePre
 {
 	color: white;
 	text-align: left; 
 }
-
-
 .Image
 {
 	color: white;
 	position: absolute;
 	left: 50%;
-	width: 400px;
-	margin-left: -200px;
+	top: 30%;
+	margin-left: -200px; 
 }
-
 .Text
 {
 	color: white; 
 	top: 500px;
 	left: 300px; 
 }
-
 .Tab
 {
 	color: white; 
@@ -42,9 +34,8 @@
     text-align: center;
 }
 
-/* Esthétique */ 
-/* Menu introduction: */ 
 
+/* Header et Footer */ 
 html, body
 {
 	margin: auto;
@@ -52,12 +43,10 @@ html, body
 	height: 100%; 
 	width: 100%; 
 }
-
 .Container
 {
 	height: auto; 
 }
-
 footer
 {
 	display: table-row;
@@ -65,13 +54,11 @@ footer
 	background-color: black; 
 	text-align: center;
 }
-
 footer p
 {
 	color: #fff; 
 	font-family: Myriad Pro; 
 }
-
 nav ul
 {
 	padding: 0px;
@@ -79,7 +66,6 @@ nav ul
 	list-style-type: none; 
 	background-color: #333333; 
 }
-
 nav li
 {
 	display: inline-block; 
@@ -91,52 +77,60 @@ nav li
 	text-align: center; 
 	line-height: 40px; 
 }
-
 nav li a
 {
 	display: block;
 	text-decoration: none; 
 	color: white; 
 }
-
 nav li :hover
 {
 	background-color: #3388BB; 
 }
-
-
-td, th /* Mettre une bordure sur les td ET les th */
+td, th 
 {
     border: 1px solid white;
 
 }
 
+
+/* Menu Galerie */ 
+.Galim
+{
+	width: 100px;
+	height: 90px; 
+}
+.Thgal
+{
+	font-size: 2em; 
+	background-color: black; 
+	color: white; 
+}
+/* .Tdgal
+{
+	text-align: center; 
+	color: white; 
+} */
+.tabgal
+{
+	background-color: black; 
+	width: 60%;
+}
+.tdgal
+{
+	padding: 25px; 
+}
+
+
+/* Lien */ 
 .lien
 {
 	text-decoration: none; 
 	color: white; 
 }
-
 .lienU
 {
 	text-decoration: none; 
 	color: white; 
 	text-align: center;
 }
-
-.photo_gauche 
-{ 
-float: left; 
-width: xx; 
-height: xx; 
-margin-left: xx:   
-} 
- 
-.texte_droite 
-{ 
-float: right; 
-width: xx; 
-height: xx; 
-margin-left: xx:  
-} 
-
