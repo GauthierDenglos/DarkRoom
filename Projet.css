@@ -1,39 +1,50 @@
 /* Contenu */ 
 .Introduction 
 {
-	background-color: black; 
+	background-color: #2c2c2c; /*Emma 25/04*/
 }
 .Titre, .Tdgal
 {
+	font-family: 'Lobster', cursive; /*Emma 25/04*/
 	color: white; 
 	text-align: center; 
 }
 .TitrePre
 {
-	font-style: italic;
+	font-family: 'Lobster', cursive; /*Emma 25/04*/
 	color: white;
 	text-align: left; 
 }
 .Image
 {
-	color: white;
-	position: absolute;
-	left: 50%;
-	top: 30%;
-	margin-left: -200px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 50%;*/
 }
 .Text
 {
+	font-family: 'Roboto Condensed', sans-serif; /*Emma 25/04*/
 	text-align: center;
-	color: white; 
+	color: #d7d7d7; /*Emma 25/04*/
 	top: 500px;
-	left: 300px; 
+	padding-left: 12%; 
+	padding-right: 12%;
 }
 .Tab
 {
 	color: white; 
     border-collapse: collapse;
     text-align: center;
+}
+.Quote
+{
+	font-family: 'Advent Pro', sans-serif; /*Emma 25/04*/
+	text-align: center;
+	color: #e0e0eb; /*Emma 25/04*/
+	padding-top: 10px;
+	padding-left: 20%; 
+	padding-right: 20%;
 }
 
 button
@@ -66,6 +77,13 @@ button:active
 	display: flex;
 	justify-content: center;
 	min-height: 50vh; 
+}
+
+
+blockquote /*Emma 25/04*/
+{ 
+	padding: 10px; 
+	/*à modifier*/
 }
 
 
