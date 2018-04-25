@@ -37,15 +37,54 @@
     border-collapse: collapse;
     text-align: center;
 }
-.Quote
-{
-	font-family: 'Advent Pro', sans-serif; /*Emma 25/04*/
-	text-align: center;
-	color: #e0e0eb; /*Emma 25/04*/
-	padding-top: 10px;
-	padding-left: 20%; 
-	padding-right: 20%;
+
+
+/*begin: QUOTE*/ /*Emma 25/04*/
+blockquote 
+{ 
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	margin: 0.25em 0;
+	padding-left: 22%;
+	padding-right: 22%;
+	line-height: 1.45;
+	position: relative;
+	color: #c4c4c4;
 }
+
+blockquote:before 
+{
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: 19%;
+	color: #7a7a7a;
+}
+
+blockquote cite 
+{
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+ 
+blockquote cite:before 
+{
+	content: "\2014 \2009";
+}
+/*end: QUOTE*/
+
+
+/*begin: HR*/
+hr.style6 
+{
+	border-top: 1px dashed #8c8b8b
+}
+/*end: HR*/
+
 
 button
 {
@@ -77,13 +116,6 @@ button:active
 	display: flex;
 	justify-content: center;
 	min-height: 50vh; 
-}
-
-
-blockquote /*Emma 25/04*/
-{ 
-	padding: 10px; 
-	/*à modifier*/
 }
 
 
