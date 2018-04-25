@@ -39,6 +39,15 @@
 	padding-left: 12%; 
 	padding-right: 12%;
 }
+.Text1
+{
+	font-family: 'Roboto Condensed', sans-serif; /*Emma 25/04*/
+	text-align: center;
+	color: #d7d7d7; /*Emma 25/04*/
+	top: 500px;
+	padding-left: 12%; 
+	padding-right: 12%;
+}
 .Tab
 {
 	color: white; 
