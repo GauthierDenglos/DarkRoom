@@ -1,35 +1,11 @@
-/* Police */ 
-@font-face {
-    font-family: 'fortysecondstreethbregular';
-    src: url('Police/FORTSSH_-webfont.eot');
-    src: url('Police/FORTSSH_-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Police/FORTSSH_-webfont.woff2') format('woff2'),
-         url('Police/FORTSSH_-webfont.woff') format('woff'),
-         url('Police/FORTSSH_-webfont.ttf') format('truetype'),
-         url('Police/FORTSSH_-webfont.svg#fortysecondstreethbregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* Contenu */ 
 .Introduction 
 {
 	background-color: #2c2c2c; /*Emma 25/04*/
 }
-
-.Titre1
-{
-	color: white; 
-	font-family: 'fortysecondstreethbregular', Impact; 
-}
 .Titre, .Tdgal
 {
-<<<<<<< Updated upstream:Projet2.css
-	font-family: Impact; 
-=======
 	font-family: 'Lobster', cursive; /*Emma 25/04*/
->>>>>>> Stashed changes:Projet.css
 	color: white; 
 	text-align: center; 
 }
@@ -39,33 +15,13 @@
 	color: white;
 	text-align: left; 
 }
-.Vid
-{
-	display:block;
-	width:480px;
-	margin:0 auto 35px auto
-}
 .Image
 {
-<<<<<<< Updated upstream:Projet2.css
-	display:block;
-	width:480px;
-	margin:0 auto 35px auto; 
-	position: absolute; 
-	left: 50%;
-	top: 30%;
-	margin-left: -200px; 
-=======
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	/*width: 50%;*/
->>>>>>> Stashed changes:Projet.css
 }
-.fig
-{
-	color: white; 
-}	
 .Text
 {
 	font-family: 'Roboto Condensed', sans-serif; /*Emma 25/04*/
@@ -138,7 +94,6 @@ button
 	color: #fff;
 	cursor: pointer;
 	font-family: monospace;
-	font-family: Impact; 
 	font-size: 3em; 
 	outline: none;
 	padding: 15px; 
@@ -229,13 +184,8 @@ td, th
 	width: 100px;
 	height: 90px; 
 }
-.Tdgal
-{
-	font-family: Impact; 
-}
 .Thgal
 {
-	font-family: Impact; 
 	font-size: 2em; 
 	background-color: black; 
 	color: white; 
@@ -264,7 +214,6 @@ td, th
 }
 .lienU
 {
-	font-family: Impact; 
 	text-decoration: none; 
 	color: white; 
 	text-align: center;
