@@ -9,13 +9,22 @@
 	color: white; 
 	text-align: center; 
 }
-.Titre, .Tdgal
+.Titre
 {
 	font-family: 'Lobster', cursive; /*Emma 25/04*/
 	color: white; 
 	text-align: left; 
-	padding-left: 15%; 
+	padding-left: 18%; 
 	padding-top: 10px;
+}
+.Text
+{
+	font-family: 'Roboto Condensed', sans-serif; /*Emma 25/04*/
+	text-align: justify;
+	color: #d7d7d7; /*Emma 25/04*/
+	top: 500px;
+	padding-left: 15%; 
+	padding-right: 15%;
 }
 .Image
 {
@@ -30,24 +39,6 @@
   width:480px; 
   margin:0 auto 35px auto 
 } 
-.Text
-{
-	font-family: 'Roboto Condensed', sans-serif; /*Emma 25/04*/
-	text-align: justify;
-	color: #d7d7d7; /*Emma 25/04*/
-	top: 500px;
-	padding-left: 12%; 
-	padding-right: 12%;
-}
-.Text1
-{
-	font-family: 'Roboto Condensed', sans-serif; /*Emma 25/04*/
-	text-align: center;
-	color: #d7d7d7; /*Emma 25/04*/
-	top: 500px;
-	padding-left: 12%; 
-	padding-right: 12%;
-}
 .Tab
 {
 	color: white; 
@@ -94,15 +85,6 @@ blockquote cite:before
 	content: "\2014 \2009";
 }
 /*end: QUOTE*/
-
-
-/*begin: HR*/
-hr.style6 
-{
-	border-top: 1px dashed #8c8b8b
-}
-/*end: HR*/
-
 
 button
 {
@@ -211,11 +193,10 @@ td, th
 
 .tabgal
 {
-	background-color: black; 
+	background-color: #2c2c2c; 
 	width: 60%;
 	position: absolute;
 	left: 50%;
-	top: 30%;
 	margin-left: -470px; 
 }
 .tdgal
