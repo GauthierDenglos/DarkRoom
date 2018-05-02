@@ -14,7 +14,7 @@
 	font-family: 'Lobster', cursive; /*Emma 25/04*/
 	color: white; 
 	text-align: left; 
-	padding-left: 18%; 
+	padding-left: 23%; 
 	padding-top: 10px;
 }
 .Text
@@ -23,8 +23,8 @@
 	text-align: justify;
 	color: #d7d7d7; /*Emma 25/04*/
 	top: 500px;
-	padding-left: 15%; 
-	padding-right: 15%;
+	padding-left: 18%; 
+	padding-right: 18%;
 }
 .Image
 {
@@ -59,7 +59,7 @@
 	font-size: 18px;
 	text-align: left;
 	color: #ca4c58;
-	padding-left: 17%; 
+	padding-left: 20%; 
 }
 
 
