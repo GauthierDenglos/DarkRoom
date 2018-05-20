@@ -61,6 +61,13 @@
 	color: #ca4c58;
 	padding-left: 20%; 
 }
+.Article
+{
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+}
 
 
 /*begin: QUOTE*/ /*Emma 25/04*/
@@ -142,6 +149,12 @@ html, body
 	display: table;
 	height: 100%; 
 	width: 100%; 
+	color: black;
+	background-color:white;
+	background-image:url(Images/back.jpg);
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 .Container
 {
@@ -232,4 +245,45 @@ td, th
 	text-decoration: none; 
 	color: white; 
 	text-align: center;
+}
+
+/* Barre de navigation */ 
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #80002a;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }

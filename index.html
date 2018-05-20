@@ -12,15 +12,15 @@
 	<body class="Introduction">
 		</br>
 		<div class="Container">
-			<nav>
-			<ul>
-				<li> <a href="Download.html">Download</a> </li><!-- 
-				--><li> <a href="Galerie.html">Photos</a> </li><!-- 
-				--><li> <a href="LiensUtiles.html">Liens utiles</a> </li><!-- 
-				--><li> <a href="index.html">Page d'accueil</a> </li><!--
-				--><li> <a href="Presentation.html">Presentation</a> </li>
-			</ul>
-			</nav>
+			<div id="navbar">>
+					<a href="Download.html">Download</a>
+					<a href="Galerie.html">Photos</a>
+					<a href="LiensUtiles.html">Liens utiles</a>
+					<a class="active" href="index.html">Page d'accueil</a>
+					<a href="Presentation.html">Presentation</a>
+			</div>
+
+			
 
 			<blockquote>
 				<p>Seule dans une pièce où règne une obscurité presque totale, de simples faits comme : qui vous êtes, ou en quelle année sommes-nous, n’ont plus aucune importance et semblent avoir été totalement eﬀacés de votre cerveau. L’unique sentiment vous restant est une peur intense, et l’unique pensée que vous ayez est une volonté de survivre, de sortir de cet endroit inconnu duquel votre instinct vous hurle de vous enfuir au plus vite. Vous ne vous posez que deux questions : « Ou suis-je ? Pourquoi suis-je ici ? ». A cet instant, retentissant dans la pièce entière, une voix rauque vous glace le sang de par ces quelques mots... </p>
@@ -126,7 +126,6 @@
 			<br/>
 			<hr>
 
-
 			<!--LOG-->
 			<p class="Log"> <b> Le menu </b> <i> 31/03/2018 au 02/04/2018 </i> - </p>
 			<!--CONTENT-->
@@ -166,6 +165,21 @@
 			<br/>
 
 		</div>
+
+		<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
+		</script>
 
 		<footer> 
 			<div class="Container">
