@@ -291,7 +291,7 @@ td, th
 /*image header*/
 div#wrapperHeader 
 {
-	background: #a80029;
+	background: #700000;
 	 width:100%;
 	 height;200px; /* height of the background image? */
 	 background:url(images/header.png) repeat-x 0 0;
@@ -300,13 +300,13 @@ div#wrapperHeader
 
 div#wrapperHeader div#header 
 {
-	background: #a80029;
+	background: #700000;
 	 margin:0 auto;
 }
 
 div#wrapperHeader div#header img 
 {
-	background: #a80029;
+	background: #700000;
 	 width:; /* the width of the logo image */
 	 height:; /* the height of the logo image */
 	 margin:0 auto;
