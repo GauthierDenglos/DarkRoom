@@ -1,5 +1,5 @@
 <?php
-$bdd = new PDO('mysql:host=3306;dbname=id6089149_espace_membre', 'id6089149_gauthier', 'liogau99'); //mettre le nom de la base de donnée timer 11:25
+$bdd = new PDO('mysql:host=localhost;dbname=id6089149_espace_membre', 'id6089149_gauthier', 'liogau99'); //mettre le nom de la base de donnée timer 11:25
 if (isset($_POST['forminscription'])) 
 {
 	$pseudo = htmlspecialchars($_POST['pseudo']);
