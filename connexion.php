@@ -29,8 +29,24 @@ if(isset($_POST['formconnexion'])) {
    <head>
       <title>Darkroom</title>
       <meta charset="utf-8">
+      <link rel="stylesheet" href="Projet.css" /> 
    </head>
    <body>
+      <body  class="Introduction">
+
+      <div id="wrapperHeader">
+       <div id="header">
+                <img src="Images/logo.jpg" width="250" height="250" alt="logo" />
+       </div> 
+      </div>
+      <div id="navbar">>
+            <a href="Download.html">Download</a>
+            <a href="Galerie.html">Photos</a>
+            <a href="LiensUtiles.html">Liens utiles</a>
+            <a href="index.html">Page d'accueil</a>
+            <a class="active" href="Presentation.html">Presentation</a>
+      </div>
+
       <div align="center">
          <h2>Connexion</h2>
          <br /><br />

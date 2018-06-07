@@ -263,13 +263,30 @@ td, th
   text-decoration: none;
   font-size: 17px;
 }
+#navbar .a1 {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 #navbar a:hover {
   background-color: #ddd;
   color: black;
 }
+#navbar .a1:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 #navbar a.active {
+  background-color: #80002a;
+  color: white;
+}
+#navbar .a1.active {
   background-color: #80002a;
   color: white;
 }
@@ -307,7 +324,18 @@ div#wrapperHeader div#header
 div#wrapperHeader div#header img 
 {
 	background: #700000;
-	 width:; /* the width of the logo image */
-	 height:; /* the height of the logo image */
-	 margin:0 auto;
+	width:; /* the width of the logo image */
+	height:; /* the height of the logo image */
+	margin:0 auto;
+}
+
+h2
+{
+	color: #d7d7d7; 
+}
+
+label
+{
+	color: white; 
+	text-align: center; 
 }
