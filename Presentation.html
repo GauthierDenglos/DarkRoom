@@ -23,6 +23,9 @@
 					<a href="LiensUtiles.html">Liens utiles</a>
 					<a href="index.html">Page d'accueil</a>
 					<a class="active" href="Presentation.html">Presentation</a>
+					<a class="a1" href="inscription.php">Inscription</a>
+					<a class="a1" href="connexion.php">Connexion</a>
+					<a class="a1" href="deconnexion.php">Déconnexion</a>
 			</div>
 
 			<video class= "Vid" src="Images/" controls poster= "Images/trailer.png" height="250"></video> 
@@ -34,7 +37,7 @@
 			<figure> <img src="Images/logo2.png" alt="Logo" class="Image" width=15%> </figure>
 			<br/>
 			<blockquote>
-				<p> Etudiante de 19 ans en première année de classe préparatoire à EPITA, j'avais fait très peu d'informatique avant d'être prise chez EPITA 	et je ne regrette pas mon choix ! La decouverte de l'informatique m'ouvre des univers que je ne connaissais pas ou très peu, et la creation d'un jeu video en fait partie. J'ai découvers l'envers du décor lié à sa fabrication et je suis bien heureuse de ne pas être seule pour ce projet ! <cite> Ilona Poilliot</cite></p>
+				<p> Etudiante de 19 ans en première année de classe préparatoire à EPITA, j'avais fait très peu d'informatique avant d'être prise chez EPITA et je ne regrette pas mon choix ! La decouverte de l'informatique m'ouvre des univers que je ne connaissais pas ou très peu, et la creation d'un jeu video en fait partie. J'ai découvers l'envers du décor lié à sa fabrication et je suis bien heureuse de ne pas être seule pour ce projet ! <cite> Ilona Poilliot</cite></p>
 			</blockquote>
 
 			<blockquote>
@@ -57,6 +60,21 @@
                                  • Une buanderie (3ème et dernière salle) </p> 
 
 		</div>
+
+		<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
+		</script>
 
 		<footer> 
 			<div class="Container">

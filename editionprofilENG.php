@@ -27,15 +27,15 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
       </div>
       <div id="navbar">>
             <a href="Download.html">Download</a>
-            <a href="Galerie.html">Photos</a>
-            <a href="LiensUtiles.html">Liens utiles</a>
-            <a href="index.html">Page d'accueil</a>
+            <a href="Galerie.html">Pictures</a>
+            <a href="LiensUtiles.html">Usefull Links</a>
+            <a href="index.html">Homepage</a>
             <a class="active" href="Presentation.html">Presentation</a>
       </div>
       <div align="center">
-         <h2>Profil de <?php echo $userinfo['pseudo']; ?></h2>
+         <h2>Profile of <?php echo $userinfo['pseudo']; ?></h2>
          <br /><br />
-         <p class="Text"> Pseudo = </p> <?php echo $userinfo['pseudo']; ?>
+         <p class="Text"> Name = </p> <?php echo $userinfo['pseudo']; ?>
          <br />
          <p class="Text"> Mail = </p><?php echo $userinfo['mail']; ?>
          <br />
@@ -43,8 +43,8 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
          if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
          ?>
          <br />
-         <a href="editionprofil.php">Editer mon profil</a>
-         <a href="deconnexion.php">Se déconnecter</a>
+         <a href="editionprofil.php">Edit your profile</a>
+         <a href="deconnexion.php">Log out</a>
          <?php
          }
          ?>
