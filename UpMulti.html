@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>DarkRoom</title>
+		<link rel="stylesheet" href="Projet.css" /> 
+		<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Lobster|Roboto+Condensed|Trocchi" rel="stylesheet">
+
+	<!head>
+		<body class="Introduction">
+
+		<div id="wrapperHeader">
+	    <div id="header">
+	             <img src="Images/logo.jpg" width="250" height="250" alt="logo" />
+	    </div> 
+		</div>
+
+		<div class="Container">
+			<div id="navbar">
+					<a href="Download.html">Download</a>
+					<a href="Galerie.html">Photos</a>
+					<a href="LiensUtiles.html">Liens utiles</a>
+					<a class="active" href="index.html">Page d'accueil</a>
+					<a href="Presentation.html">Presentation</a>
+                    <a class="a1" href="inscription.php">Inscription</a>
+                    <a class="a1" href="connexion.php">Connexion</a>
+                    <a class="a1" href="deconnexion.php">Déconnexion</a>
+			</div>
+
+            <!--<figure> <img src="Images/logo.jpg" alt="Logo" class="Image"> </figure>-->
+
+            <h1 class="Titre"> Updates : Le multijoueur </h1>
+
+            <!--LOG-->
+            <p class="Log"> <b> Multijoueur (2) </b> - <i> 01/05/2018 </i> - </p>
+            <!--CONTENT-->
+            <figure> <img src="Images/mulit1.jpg" alt="Logo" class="Image" width=25%> </figure>
+            <p class="Text"> Les synchronisations des animations (avec le component Network Animation) et des déplacements (utilisation de deux points Spawn) des joueurs sont opérationnelles mais il reste cependant des légers détails à régler pour que le multi joueur soit complétement fini. Notre jeu utilisant le logiciel Unity comme plateforme, se base sur le Networking (appelé aussi Unet) de Unity. Sur le screen ci-dessus, vous pouvez remarquer les petites options à gauche qui permettront de lancer le multi joueur, sachant que le Host sera notre premier joueur et Lan Client notre deuxième joueur. Vous pouvez voir le résultat d'un lancement sur le screen ci-dessous. </p>
+            <figure> <img src="Images/multi2.jpg" alt="Logo" class="Image" width=25%> </figure>
+            <!--AUTEUR-->
+            <p class="Author"> - Marile Lin @Lowbattery </p>
+            <br />
+            <hr>
+
+            <!--LOG-->
+            <p class="Log"> <b> Multijoueur (1) </b> <i> 13/03/2018 </i> - </p>
+            <!--CONTENT-->
+            <p class="Text"> Initialisation de la création du mode Multijoueur en réseau local de Darkroom : Notre multijoueur se limite à 2 joueurs, il consiste à avoir deux points de vue différents : le premier joueur possédera plus un point de vue « interne » car il se déplacera dans les pièces pour pouvoir récolter les indices, alors que le deuxième joueur aura plus un point de vue dit « externe », puisqu’il peut voir toutes les pièces de haut sans pour autant être vu par notre premier joueur ; il peut ainsi guider le premier joueur à trouver plus facilement les indices. </p>
+            <!--AUTEUR-->
+            <p class="Author"> - Marile Lin @Lowbattery </p>
+            <br />
+            <hr>
+        </div>
+
+		<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
+		</script>
+
+		<footer> 
+			<div class="Container">
+
+	        <p> <a class= "lien" href="index.html"> Retour aux Updates </a> </p> 
+
+			</div> 
+
+		</footer>
+
+	</body>
+</html>

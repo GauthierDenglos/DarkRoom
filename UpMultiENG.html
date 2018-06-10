@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>DarkRoom</title>
+		<link rel="stylesheet" href="Projet.css" /> 
+		<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Lobster|Roboto+Condensed|Trocchi" rel="stylesheet">
+
+	<!head>
+
+	<body class="Introduction">
+
+		<div id="wrapperHeader">
+	    <div id="header">
+	             <img src="Images/logo.jpg" width="250" height="250" alt="logo" />
+	    </div> 
+		</div>
+
+		<div class="Container">
+			<div id="navbar">>
+					<a href="DownloadENG.html">Download</a>
+					<a href="GalerieENG.html">Pictures</a>
+					<a href="LiensUtilesENG.html">Usefull Links</a>
+					<a class="active" href="indexENG.html">Homepage</a>
+					<a href="PresentationENG.html">Presentation</a>
+                              <a class="a1" href="inscriptionENG.php">Sign in</a>
+                              <a class="a1" href="connexionENG.php">Log in</a>
+                              <a class="a1" href="deconnexionENG.php">Log out</a>
+			</div>
+                  
+            <!--<figure> <img src="Images/logo.jpg" alt="Logo" class="Image"> </figure>-->
+
+            <h1 class="Titre"> Updates in multiplayer mode </h1>
+
+            <!--LOG-->
+            <p class="Log"> <b> Multiplayer (2) </b> - <i> 01/05/2018 </i> - </p>
+            <!--CONTENT-->
+            <figure> <img src="Images/mulit1.jpg" alt="Logo" class="Image" width=25%> </figure>
+            <p class="Text"> The synchronizations of the animations (with the component Network Animation) and displacements (use of two Spawn points) of the players are operational but there remains however slight details to be regulated so that the multiplayer is completely finished. Our game using Unity software as a platform, is based on Unity's Networking (also called Unet). On the screen above, you can notice the small options on the left that will launch the multi player, knowing that the Host will be our first player and Lan Client our second player. You can see the result of a launch on the screen below. </p>
+            <figure> <img src="Images/multi2.jpg" alt="Logo" class="Image" width=25%> </figure>
+            <!--AUTEUR-->
+            <p class="Author"> - Marile Lin @Lowbattery </p>
+            <br />
+            <hr>
+
+            <!--LOG-->
+            <p class="Log"> <b> Multplayer (1) </b> <i> 13/03/2018 </i> - </p>
+            <!--CONTENT-->
+            <p class="Text"> Initialization of the creation of the Darkroom Multiplayer mode of Darkroom: Our multiplayer is limited to 2 players, it consists to have two different points of view: the first player will have more an "internal" point of view because it will move in the rooms to be able to collect the clues, whereas the second player will have more than one point of view said "external", since it can see all the pieces of high without being seen by our first player; he can thus guide the first player to find the clues more easily. </p>
+            <!--AUTEUR-->
+            <p class="Author"> - Marile Lin @Lowbattery </p>
+            <br />
+            <hr>
+        </div>
+
+		<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
+		</script>
+
+		<footer> 
+			<div class="Container">
+
+	        <p> <a class= "lien" href="indexENG.html"> Go back to Updates </a> </p> 
+
+			</div> 
+
+		</footer>
+
+	</body>
+
+</html>

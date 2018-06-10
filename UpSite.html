@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>DarkRoom</title>
+		<link rel="stylesheet" href="Projet.css" /> 
+		<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Lobster|Roboto+Condensed|Trocchi" rel="stylesheet">
+
+	<!head>
+		<body class="Introduction">
+
+		<div id="wrapperHeader">
+	    <div id="header">
+	             <img src="Images/logo.jpg" width="250" height="250" alt="logo" />
+	    </div> 
+		</div>
+
+		<div class="Container">
+			<div id="navbar">>
+					<a href="Download.html">Download</a>
+					<a href="Galerie.html">Photos</a>
+					<a href="LiensUtiles.html">Liens utiles</a>
+					<a class="active" href="index.html">Page d'accueil</a>
+					<a href="Presentation.html">Presentation</a>
+                    <a class="a1" href="inscription.php">Inscription</a>
+                    <a class="a1" href="connexion.php">Connexion</a>
+                    <a class="a1" href="deconnexion.php">Déconnexion</a>
+			</div>
+
+            <!--<figure> <img src="Images/logo.jpg" alt="Logo" class="Image"> </figure>-->
+
+            <h1 class="Titre"> Updates : Le site </h1>
+
+            <!--LOG-->
+            <p class="Log"> <b>Le site web </b> <i> du 23/04/2018 au 29/04/2018 </i> - </p>
+            <!--CONTENT-->
+            <p class="Text"> Après la soutenance 1 le site web n'était qu'une base, avec très peu de contenu, voire pas du tout et juste quelques élements d'oragnisation tel que le header et le footer. </p>
+            <figure> <img src="Images/Image1.png" alt="Logo" class="Image" width=25%> </figure>
+            <p class="Text"> Le but de cette semaine était donc de remplir le plus possible le site, avec à la fois les éléments retenus de la soutenance 1, des éléments pour les futures soutenances, et des éléments ésthétiques. </p>
+            <figure> <img src="Images/Image3.png" alt="Logo" class="Image" width=25%> </figure>
+            <p class="Text"> Globallement nous avons changé 3 aspects sur ce site: </br> Premièrement les couleurs, et l'ésthétique : Au lieu d'avoir tout blanc ou tout noir, nous avons décidé de changer un peu la palette en ajoutant différentes nuances de gris, permettant de mieux apréhender le site. Une marge a été ajouté, permettant de centrer le tout, et de rendre la lecture plus agréable, surtout lorsque les textes sont longs. A cela s'ajoute les changements de police, entre les titres, le textes, et les passages en italiques (citation). Le reste tiens de la simple mise en page en jouant avec le HTML. </br> </p>
+            <p class="Text"> Deuxièmement, l'organisation générale : Certaines parties ajoutées au premier abord n'étaient en fait pas necessaire, ou trop lourde pour être ajoutées au site, et donc réparties, ou supprimées. C'est le cas par exemple de tous les tableaux (aussi présents dans le cahier des charges), qui on été remplassé par cette partie Updates, remplie au fur et à mesure. </br> </p>
+            <figure> <img src="Images/Image2.png" alt="Logo" class="Image" width=25%> </figure>
+            <p class="Text"> Troisièmement, le remplissage : c'est en faisant celui-ci que les autre points sont venus. En remplissant le site on s'est rendu compte de la lourdeur de certaines choses, et de la necessité de rendre le site plus ergonomique. Malgré cela, le remplissage étant necessaire, des arrangements on été faits et remplir le site et maintenant plus facile avec la nouvelle organisation. On sait où se situe telle chose , et à quoi cela doit ressembler. C'est la dernière étape avant d'avoir un site complet, que l'on pourra améliorer si on a le temps.</br> </p>
+            <figure> <img src="Images/Image4.png" alt="Logo" class="Image" width=25%> </figure>
+            <!--AUTEUR-->
+            <p class="Author"> - Gauthier Denglos @xcacaox </p>
+            <br />
+            <hr>
+        </div>
+
+		<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
+		</script>
+
+		<footer> 
+			<div class="Container">
+
+	         <p> <a class= "lien" href="index.html"> Retour aux Updates </a> </p> 
+
+			</div> 
+
+		</footer>
+
+	</body>
+</html>
