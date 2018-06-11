@@ -27,38 +27,38 @@ if (isset($_POST['forminscription']))
 						{
 							$insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, mail, motdepasse) VALUES(?, ?, ?)"); // Voir dans la base de donnée (nom des tables) timer 26:50
 							$insertmbr->execute(array($pseudo, $mail, $mdp));
-							$erreur = "Votre compte a bien été créé !<a href=\"connexion.php\">Me connecter</a>"; 
+							$erreur = "Your account has been created!<a href=\"connexion.php\">Log in</a>"; 
 							// $_SESSION['comptecree'] = "Votre compte a bien été créé !"; 
 							// header('Location: index.php'); //Redirige l'utilisateur vers une autre page timer 30:00
 						}
 						else
 						{
-							$erreur = "Vos deux mots de passe ne correspondent pas ! ";
+							$erreur = "The two passwords don't match ! ";
 						}
 					}
 					else
 					{
-						$erreur = "Adresse mail déjà utilisée ! ";
+						$erreur = "This mail is already used ! ";
 					}
 				}
 				else
 				{
-					$erreur = "Votre adresse mail n'est pas valide !";
+					$erreur = "This mail is not correct !";
 				}
 			}
 			else
 			{
-				$erreur = "Vos deux adresses mail ne correspondent pas !";
+				$erreur = "The two mails don't match !";
 			}
 		}
 		else
 		{
-			$erreur = "Votre pseudo doit faire moins de 255 charactères.";
+			$erreur = "Your name must be less than 255 !";
 		}
 	}
 	else
 	{
-		$erreur = "tous les champs doivent être completés ! ";
+		$erreur = "all fields must be completed ! ";
 	}
 }
 ?>

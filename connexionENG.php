@@ -17,10 +17,10 @@ if(isset($_POST['formconnexion'])) {
          $_SESSION['mail'] = $userinfo['mail'];
          header("Location: profil.php?id=".$_SESSION['id']);
       } else {
-         $erreur = "Mauvais mail ou mot de passe !";
+         $erreur = "Wrong mail ou password !";
       }
    } else {
-      $erreur = "Tous les champs doivent être complétés !";
+      $erreur = "All fields must be completed !";
    }
 }
 ?>
