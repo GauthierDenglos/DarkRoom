@@ -31,6 +31,7 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
             <a href="LiensUtiles.html">Usefull Links</a>
             <a href="index.html">Homepage</a>
             <a class="active" href="Presentation.html">Presentation</a>
+            <a class="a1" href="index.html">FR</a>
       </div>
       <div align="center">
          <h2>Profile of <?php echo $userinfo['pseudo']; ?></h2>

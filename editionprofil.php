@@ -51,6 +51,7 @@ if(isset($_SESSION['id'])) {
             <a href="LiensUtiles.html">Liens utiles</a>
             <a href="index.html">Page d'accueil</a>
             <a class="active" href="Presentation.html">Presentation</a>
+            <a class="a1" href="indexENG.html">ENG</a>
       </div>
       <div align="center">
          <h2>Edition de mon profil</h2>

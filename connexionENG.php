@@ -45,6 +45,7 @@ if(isset($_POST['formconnexion'])) {
             <a href="LiensUtiles.html">Usefull Links</a>
             <a href="index.html">Homepage</a>
             <a class="active" href="Presentation.html">Presentation</a>
+            <a class="a1" href="index.html">FR</a>
       </div>
 
       <div align="center">
